@@ -10,7 +10,7 @@ show_help = False
 for arg in args[1:]:
     if arg.find('help') != -1 or arg.find('--h') != -1:
         show_help = True
-if len(args) not in [1, 4]:
+if len(args) not in [4]:
     show_help = True
 
 if show_help:
